@@ -10,8 +10,10 @@ This package adds a ```db:check``` command to a laravel instance, which checks f
 Via Composer
 
 ``` bash
-$ composer require ottosmops/dbcheck
+$ composer require 'ottosmops/dbcheck:1.*'
 ```
+
+Add ```Ottosmops\Dbcheck\DbcheckServiceProvider::class,``` to the providers-array in ```config/app.php```.
 
 ## Usage
 
