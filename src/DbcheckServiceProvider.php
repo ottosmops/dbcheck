@@ -1,6 +1,6 @@
 <?php
 
-namespace ottosmops\dbcheck;
+namespace Ottosmops\Dbcheck;
 
 use Illuminate\Support\ServiceProvider;
 
