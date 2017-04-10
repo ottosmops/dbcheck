@@ -36,8 +36,8 @@ CREATE
             FROM 
                 information_schema.KEY_COLUMN_USAGE 
             WHERE 
-                `CONSTRAINT_SCHEMA` LIKE checked_database_name AND
-                `TABLE_NAME` LIKE checked_table_name AND
+                `CONSTRAINT_SCHEMA` LIKE checked_database_name COLLATE utf8_unicode_ci AND
+                `TABLE_NAME` LIKE checked_table_name COLLATE utf8_unicode_ci AND
                 `REFERENCED_TABLE_SCHEMA` IS NOT NULL;
 
         DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
