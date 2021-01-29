@@ -1,7 +1,6 @@
 # db:check (analyze invalid foreign keys)
 
-[![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/ottosmops/dbcheck.svg?style=flat-square)](https://packagist.org/packages/ottosmops/dbcheck)
+[![Latest Stable Version](https://poser.pugx.org/ottosmops/dbcheck/v)](//packagist.org/packages/ottosmops/dbcheck) [![Total Downloads](https://poser.pugx.org/ottosmops/dbcheck/downloads)](//packagist.org/packages/ottosmops/dbcheck) [![Latest Unstable Version](https://poser.pugx.org/ottosmops/dbcheck/v/unstable)](//packagist.org/packages/ottosmops/dbcheck) [![License](https://poser.pugx.org/ottosmops/dbcheck/license)](//packagist.org/packages/ottosmops/dbcheck)
 
 This package adds a ```db:check``` command to a laravel instance, which checks for invalid foreign keys in the database (mysql). It implements this [stored procedure](http://stackoverflow.com/questions/2250775/force-innodb-to-recheck-foreign-keys-on-a-table-tables).
 
